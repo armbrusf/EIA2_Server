@@ -8,7 +8,7 @@ let students: Mongo.Collection;
 // wenn wir auf heroku sind...
 if (process.env.NODE_ENV == "production") {
     //    databaseURL = "mongodb://username:password@hostname:port/database";
-    databaseURL = "mongodb://<dbuser>:<dbpassword>@ds247330.mlab.com:47330/eia_datenbak";
+    databaseURL = "mongodb://hfuFabio:eiasuggs1@ds247330.mlab.com:47330/eia_datenbak";
     databaseName = "eia_datenbak";
 }
 
